@@ -4,12 +4,14 @@
   "private": true,
   "description": "NoobCoin (NOOB) fixed-supply community token smart contract",
   "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.0"
+    "hardhat": "2.29.2"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.0"
-  },
-  "scripts": { "compile": "hardhat compile" }
+    "@openzeppelin/contracts": "5.6.1"
+  }
 }
